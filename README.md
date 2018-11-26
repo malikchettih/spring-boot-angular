@@ -6,6 +6,15 @@ Sample application describing spring boot angular integration
 - Bikes-ui  : angular application.
 
 ## Start applications and Urls
+
+To Run the back application
+```
+cd Bikes-app
+mvn clean install
+mvn spring-boot:run
+```
+
+The Check Urls
 - http://localhost:8080/console : this h2 console
 - http://localhost:8080/swagger-ui.html : this swagger 2 console
 
